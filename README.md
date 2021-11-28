@@ -53,13 +53,21 @@ learning of complementary features by identical branches in the network
 
 # Dependencies
 Python == 3.5
+
 PyTorch == 1.4
+
 Cuda == 10.1
+
 CuDNN == 7.6.3
+
 tqdm == 4.62
+
 h5py == 2.10
+
 matplotlib == 3.0.0
+
 imageio--ffmpeg == 0.4.5
+
 sk-video == 1.1.10
 
 # Installation
