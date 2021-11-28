@@ -8,10 +8,11 @@ This is an official implementation in PyTorch of G3AN++.
 This is the overall Architecture. 
 
 Architecture of G3 Module:
-![image](https://user-images.githubusercontent.com/8327102/143731221-370ac112-5d08-414a-b1b2-33adc016e3d1.png)
+![image](https://user-images.githubusercontent.com/8327102/143731654-4007365f-eaf9-4268-aea8-939902dad3bd.png)
 
 Proposed Dual branch Appearance Module with Adaptive Masking Layer:
-![image](https://user-images.githubusercontent.com/8327102/143731241-a227d7d8-6864-448c-9ea3-639b09bd88b2.png)
+![image](https://user-images.githubusercontent.com/8327102/143731662-55d4f95d-42c2-4488-87b1-16ae97b32b0f.png)
+
 
 # Abstract
 
