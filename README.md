@@ -52,26 +52,28 @@ learning of complementary features by identical branches in the network
 ![image](https://user-images.githubusercontent.com/8327102/143731395-4e2a9508-11d1-48a8-8404-e608d32eb02e.png)
 
 # Dependencies
-Python == 3.5
+* Python == 3.5
+* PyTorch == 1.4
+* Cuda == 10.1
+* CuDNN == 7.6.3
+* tqdm == 4.62
+* h5py == 2.10
+* matplotlib == 3.0.0
+* imageio--ffmpeg == 0.4.5
+* sk-video == 1.1.10
 
-PyTorch == 1.4
-
-Cuda == 10.1
-
-CuDNN == 7.6.3
-
-tqdm == 4.62
-
-h5py == 2.10
-
-matplotlib == 3.0.0
-
-imageio--ffmpeg == 0.4.5
-
-sk-video == 1.1.10
+# Dataset
+Weizmann dataset can be downloaded from <url to dataset> and use prerocess to preprocess the dataset. 
+We also provide the preprocessed data here.  
 
 # Installation
+Install dependencies  mentioned above. 
 
+To Train G3AN++ model on Weizmann Dataset, put the data under <> folder and run 
+
+python train_G4_weizmann.py
+
+To Evaluate 
 
 # Training and Evaluation
 
@@ -79,8 +81,9 @@ sk-video == 1.1.10
 If you find this project useful for your research, please use the following BibTeX entry.
 
 
-
-
+# Acknowledgement
+  
+Part of the code is adapted from <G3AN>. We thank the authors for their contributions to the community. 
 
 
 
