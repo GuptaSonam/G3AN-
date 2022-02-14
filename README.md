@@ -63,8 +63,8 @@ learning of complementary features by identical branches in the network
 * sk-video == 1.1.10
 
 # Dataset
-Weizmann dataset can be downloaded from <url to dataset> and use prerocess to preprocess the dataset. 
-We also provide the preprocessed data here.  
+Weizmann dataset can be downloaded from [here](https://www.wisdom.weizmann.ac.il/~vision/SpaceTimeActions.html) and use preprocess.py to preprocess the dataset. 
+We also provide the preprocessed data in the data folder of the repository.  
 
 # Installation
 Install dependencies  mentioned above. 
