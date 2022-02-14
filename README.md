@@ -64,26 +64,38 @@ learning of complementary features by identical branches in the network
 
 # Dataset
 Weizmann dataset can be downloaded from [here](https://www.wisdom.weizmann.ac.il/~vision/SpaceTimeActions.html) and use preprocess.py to preprocess the dataset. 
-We also provide the preprocessed data in the data folder of the repository.  
+We also provide the preprocessed data [here](https://drive.google.com/file/d/1Uam_-ghQ3nPWJ8pIy9-wWusxBEYShfIm/view?usp=sharing).  
 
 # Installation
-Install dependencies  mentioned above. 
-
-To Train G3AN++ model on Weizmann Dataset, put the data under <> folder and run 
-
-python train_G4_weizmann.py
-
-To Evaluate 
+Install the dependencies as mentioned above. 
 
 # Training and Evaluation
+To Train G3AN++ model on Weizmann Dataset, put the data under data folder and execute the following: 
+```python
+python train_G4_weizmann.py
+```
+
+To Evaluate using FID, follow the evaluation setup of [G3AN](https://github.com/wyhsirius/g3an-projecthttps://github.com/wyhsirius/g3an-project).
+For computing Inception score and PR curve, use the [evan](https://github.com/raahii/evan) code. 
+
+
 
 # Citation 
 If you find this project useful for your research, please use the following BibTeX entry.
+```
+@inproceedings{gupta2021g3an++,
+  title={G3AN++ exploring wide GANs with complementary feature learning for video generation},
+  author={Gupta, Sonam and Keshari, Arti and Das, Sukhendu},
+  booktitle={Proceedings of the Twelfth Indian Conference on Computer Vision, Graphics and Image Processing},
+  pages={1--9},
+  year={2021}
+}
+```
 
 
 # Acknowledgement
   
-Part of the code is adapted from <G3AN>. We thank the authors for their contributions to the community. 
+Part of the code is adapted from [G3AN](https://github.com/wyhsirius/g3an-projecthttps://github.com/wyhsirius/g3an-project). We thank the authors for their contributions to the community. 
 
 
 
